@@ -32,7 +32,7 @@
   #include "FastLED.h"
 
   #define LED_PIN   6   //Data signal pin for controlling the LEDs
-  #define NUM_LEDS  300 //total number of LEDs in the strip
+  #define NUM_LEDS  180 //total number of LEDs in the strip. (The default number of LEDs in a standard density 5 meter strip is 300.)
   CRGB leds[NUM_LEDS];  //Create an array of LED objects
   arduinoFFT FFT = arduinoFFT();          //Create FFT object
   const uint16_t samples = 256;           //This value MUST ALWAYS be a power of 2 (Arduino Uno max value is 128. Best value for Arduino Mega is 256)
